@@ -15,8 +15,8 @@ function App() {
           <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#project">Project</a></li>
-            <li><a href="#achievement">Achievement</a></li>
             <li><a href="#skills">Skills</a></li>
+            <li><a href="#achievement">Achievement</a></li>
           </ul>
         </nav>
       </header>
@@ -27,14 +27,14 @@ function App() {
       <section id="project" className="section">
         <Project/>
       </section>
-      <section id="achievement" className="section">
-        <Achievement/>
-      </section>
       <section id="skills" className="section">
         <Skill/>
       </section>
+      <section id="achievement" className="section">
+        <Achievement/>
+      </section>
       <section id="contact" className="section">
-        <Contact email={'btecommerce7@gmail.com'} linkedin={'https://www.linkedin.com/in/bhavesh-taparia-2790b5230?originalSubdomain=in'} />
+        <Contact/>
       </section>
     </div>
   );
