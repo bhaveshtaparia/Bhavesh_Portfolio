@@ -6,7 +6,7 @@ function ProjectCard(props) {
       <div className="project-details">
         <h3>{props.title}</h3>
         <p>{props.description}...</p>
-        <a href={`${props.link}`} target='_blank'>Learn More</a>
+        <a href={`${props.link}`} target='_blank' rel="noreferrer" >Learn More</a>
       </div>
     </div>
   );

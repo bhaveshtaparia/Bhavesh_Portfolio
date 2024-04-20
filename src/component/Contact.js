@@ -45,8 +45,8 @@ function Footer() {
             <button className='footerbtn' type="submit">Send</button>
           </form>
           <div className="social-icons">
-            <a href="https://www.linkedin.com/in/bhavesh-taparia-2790b5230/?originalSubdomain=in" target="_blank" rel="noopener noreferrer"><i ><img src={linkdin}/></i></a>
-            <a href="https://github.com/bhaveshtaparia?tab=repositories" target="_blank" rel="noopener noreferrer"><i ><img src={github}/></i></a>
+            <a href="https://www.linkedin.com/in/bhavesh-taparia-2790b5230/?originalSubdomain=in" target="_blank" rel="noopener noreferrer"><i ><img src={linkdin} alt='linkdin'/></i></a>
+            <a href="https://github.com/bhaveshtaparia?tab=repositories" target="_blank" rel="noopener noreferrer"><i ><img src={github} alt='github'/></i></a>
           </div>
         </div>
       </div>
