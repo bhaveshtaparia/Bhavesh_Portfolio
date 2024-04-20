@@ -1,114 +1,46 @@
-/* Default styles */
-.App {
-  text-align: center;
-  background-color: #f2f5f9; /* Light blue-gray background */
+/* App.css */
+
+body {
+  font-family:cursive, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-  background-color: #000000;
-  z-index: 10;
-  color: #fff;
-  padding: 10% 0;
-  /* background-size: cover; */
-  /* background-image: url('./images/bg2.jpg'); */
-  /* background-position: center; */
-  transition: background-color 0.5s ease-in-out;
-}
-
-
-header:hover {
-  /* background-image: url('./images/bg.jpg'); */
-  background-color: #464343;
-}
-
-
-header h1 {
-  margin: 0;
+  background-color: #333; /* Dark background color for the header */
+  padding: 20px 0;
 }
 
 nav ul {
   list-style-type: none;
+  margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 nav ul li {
   display: inline;
   margin-right: 20px;
-
 }
 
-nav>ul>li>a{
-  color: rgb(113, 115, 255);
+nav ul li a {
+  text-decoration: none;
+  color: #fff; /* White color for the navigation links */
+  font-size: 18px;
+  transition: color 0.3s ease;
 }
-section {
-  padding: 50px 0;
+
+nav ul li a:hover {
+  color: #ffd700; /* Change color on hover */
+}
+
+.section {
+  /* padding: 50px 0; */
+  text-align: center;
 }
 
 .section h2 {
+  font-size: 32px;
   margin-bottom: 20px;
-}
-
-.about-content {
-  margin-top: 20px;
-}
-
-.about-content p {
-  font-size: 18px;
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
-
-#education {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 50px;
-}
-
-.box {
-  background-color: #f0f0f0;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.b1 {
-  flex: 1;
-}
-
-.b2 {
-  flex: 1;
-  margin: 0 20px;
-}
-
-.b3 {
-  flex: 1;
-}
-
-/* Responsive styles */
-@media (max-width: 768px) {
-  header {
-    padding: 10px 0;
-  }
-
-  nav ul li {
-  margin: 10px 0;
-  }
-
-  .about-content p {
-    font-size: 16px;
-  }
-
-  #education {
-    flex-direction: column;
-  }
-
-  .box {
-    margin-bottom: 20px;
-  }
-}
-@media (max-width: 768px) {
-  nav ul li {
-    display: inline-block;
-    margin: 0 10px; /* Add some horizontal margin */
-  }
+  color: #333; /* Dark color for section headings */
 }

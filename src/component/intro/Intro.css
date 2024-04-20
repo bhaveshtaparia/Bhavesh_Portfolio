@@ -1,0 +1,49 @@
+/* Intro.css */
+
+.intro-container {
+  padding: 100px 0;
+  text-align: center;
+  background-image: url('../../images/bhavesh.png');
+  background-size: cover; /* Ensure the background image covers the entire container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+  color: #fff; /* Set default text color to white for better contrast */
+}
+
+.intro-content {
+
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  padding: 20px; /* Add some padding to the text container */
+  border-radius: 10px; /* Add rounded corners for a nicer look */
+}
+
+.intro-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.intro-content .Typewriter {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.intro-content button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.intro-content button:hover {
+  background-color: #0056b3;
+}
+
+.aboutbtn > a {
+  text-decoration: none;
+  color: #fff; /* White color for the button text */
+}

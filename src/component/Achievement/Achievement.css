@@ -1,0 +1,49 @@
+/* Achievement.css */
+
+.achievement-container {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.achievement-wrapper {
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.achievement-bg {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.achievement {
+  max-width: 600px; /* Set the maximum width for the achievement content */
+  margin: 0 auto; /* Center the achievement content horizontally */
+  padding: 20px;
+}
+
+.achievement h2 {
+  margin-bottom: 20px;
+}
+
+.achievement h3 {
+  margin-top: 0;
+}
+
+.achievement p {
+  color: #666;
+}
+
+.achievement a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.achievement a:hover {
+  text-decoration: underline;
+}

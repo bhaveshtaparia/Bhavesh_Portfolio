@@ -1,46 +1,97 @@
-.contact-section {
+/* Footer.css */
+
+.footer {
   background-color: #333;
   color: #fff;
-  padding: 50px;
-  text-align: center;
+  padding: 50px 20px 20px 20px;
 }
 
-.contact-form {
-  margin-top: 20px;
-}
-
-.contact-form form {
+.footer-content {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* Display sections vertically on small screens */
+  align-items: center; /* Center content horizontally */
 }
 
-.contact-form .form-group {
+.footer-section {
+  width: 100%; /* Full width for sections on small screens */
+  text-align: center;
+  margin-bottom: 30px; /* Added margin between sections */
+}
+
+.footer-section h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #ffd700; /* Yellow color for section headings */
+}
+
+.form-group {
   margin-bottom: 20px;
 }
 
-.contact-form label {
-  font-weight: bold;
-}
-
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
+input[type="text"],
+input[type="email"],
+textarea {
+  width: calc(100% - 22px); /* Adjusted width to accommodate for padding */
   padding: 10px;
-  margin-top: 5px;
-  border: none;
+  border: 1px solid #ddd;
   border-radius: 5px;
+  font-size: 16px;
 }
 
-.contact-form button {
-  padding: 10px 20px;
-  background-color: #ff4500;
+textarea {
+  resize: vertical;
+}
+
+.footerbtn {
+  background-color: #007bff;
   color: #fff;
   border: none;
-  border-radius: 5px;
+  padding: 10px; /* Match the padding of the form fields */
+  font-size: 16px;
   cursor: pointer;
+  border-radius: 5px;
   transition: background-color 0.3s ease;
+  width: calc(100% - 22px); /* Adjusted width to match input box */
 }
 
-.contact-form button:hover {
-  background-color: #d32f2f;
+.footerbtn:hover {
+  background-color: #0056b3;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  font-size: 24px;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffd700;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-icons a img {
+  height: 24px;
+}
+
+/* Media query for smaller screens */
+@media (min-width: 768px) {
+  .footer-content {
+    flex-direction: row; /* Revert back to horizontal layout */
+    justify-content: space-around;
+  }
+
+  .footer-section {
+    width: 30%; /* Restore width for larger screens */
+  }
 }
